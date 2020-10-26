@@ -1,0 +1,249 @@
+.clear:after{content:"";display:block;clear:both;height:0;visibility:hidden;overflow:hidden;}
+.clear{zoom:1;}
+img{vertical-align:top;border:0;}
+input,select,button,textarea{outline:none;}
+textarea{resize:none;}
+input[type="button"],input[type="submit"],input[type="file"] {cursor:pointer;} 
+input::-webkit-input-placeholder{ /* WebKit browsers */color: #ddd; } 
+input:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */ color: #ddd; } 
+input::-moz-placeholder{ /* Mozilla Firefox 19+ */ color: #ddd; } 
+input:-ms-input-placeholder{ /* Internet Explorer 10+ */ color: #ddd; }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 1366px;
+    height: 642px;
+    /* background-color: aqua; */
+}
+.head{
+    width: 100%;
+    height: 37px;
+    color: #878787;
+    background-color: #f7f7f7;
+    position: fixed; 
+    z-index:20;
+}
+.ul1,.ul2,.ul3 {
+    list-style: none;
+}
+
+ul li{
+    font-size: 12px;
+    color: #878787;
+    float: left;
+    margin-right: 28px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.li1{
+    margin-left: 85px;
+}
+.ul1 span{
+    color: coral;
+}
+li:hover{
+    color:rgb(243, 141, 104);
+}
+.ul2{
+    float: right;
+}
+/* .li2{
+    margin-left: 55px;
+} */
+.head1{
+    width: 100%;
+    height: 112px;
+    /* background-color: cornflowerblue; */
+}
+.head1 img{
+    margin-top: 53px;
+    margin-left: 75px;
+}
+
+.content{
+    width: 1210px;
+    height: 50px;
+    /* background-color: darkblue; */
+    margin: auto;
+}
+.ul3 li{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+.dropbtn {
+    background-color: #d32c26;
+    color: white;
+    height: 40px;
+    padding: 16px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    width: 208px;
+    padding-top: 6px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index:10;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(0,0,0,.3);
+    min-width: 208px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #d4bbbb}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d32c26;
+}
+.ul3 li img{
+    width: 20px;
+height: 28px;
+vertical-align: middle;
+margin-right: 12px;
+margin-left: 7px;
+margin-top: -3px;
+}
+.bar6 {
+    display: block;
+    margin-top: 53px;
+    margin-left: 150px;
+    float: right;
+    margin-right: 180px;
+}
+.bar6 input {
+    border: 2px solid #c5464a;
+    background: transparent;
+    top: 0;
+    right: 0;
+    width: 482px;
+    height: 36px;
+    outline:none;
+    float: left; 
+}
+.bar6 button {
+    background: #c5464a;
+    border-radius: 0 5px 5px 0;
+    width: 118px;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: 0;
+    outline:none;
+    float: left; 
+}
+.bar6 button:before {
+    content: "搜索";
+    font-size: 15px;
+    color: #F9F0DA;
+}
+.ul3 li:hover{
+    color:#cf3e39;
+}
+.swiper-container {
+    width: 100%;
+    height: 480px;
+  
+  }
+.swiper-wrapper img{
+    height: 480px;
+    width: 99%;
+}
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.footer{
+      /* background-color: #333; */
+      width: 1366px;
+      height: 252px;
+      margin-top: 20px;
+  }
+.foot{
+    width: 100%;
+    height: 55px;
+    /* background-color: #39cfb6; */
+  }
+.foot1{
+      float: left;
+      font-size: 15px;
+      margin-left: 12%;
+      line-height: 26px;
+  }
+.foot1 span{
+      margin-top: 2px;
+      display: inline-block;
+      margin-left: 13px;
+  }
+  .footer p a:hover{
+      color: #d32c26;
+  }
+  .footer p a{
+    text-decoration: none;
+    color: #666;
+}
+.footer .p0 {
+    text-align: center;
+    margin-top: 60px;
+}
+.ft{
+    width: 1366px;
+    height: 192px;
+    margin-top: 30px;
+}
+.v{
+    width: 125px;
+    margin-left: 4.7%;
+}
+.ft ul{
+    float: left;
+}
+.v span{
+    color: #666;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 13px;
+}
+.p2{
+    text-align: center;
+    margin-top: 3px;
+    color: #666;
+    font-size: 13px;
+}

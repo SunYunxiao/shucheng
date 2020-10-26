@@ -1,0 +1,259 @@
+.clear:after{content:"";display:block;clear:both;height:0;visibility:hidden;overflow:hidden;}
+.clear{zoom:1;}
+img{vertical-align:top;border:0;}
+input,select,button,textarea{outline:none;}
+textarea{resize:none;}
+input[type="button"],input[type="submit"],input[type="file"] {cursor:pointer;} 
+input::-webkit-input-placeholder{ /* WebKit browsers */color: #ddd; } 
+input:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */ color: #ddd; } 
+input::-moz-placeholder{ /* Mozilla Firefox 19+ */ color: #ddd; } 
+input:-ms-input-placeholder{ /* Internet Explorer 10+ */ color: #ddd; }
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    width: 1366px;
+    height: 88px;
+    /* background-color: aquamarine; */
+}
+.head{
+    width: 1190px;
+    height: 88px;
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+.head img{
+    margin-top: 20px;
+}
+.concent{
+    height: 592px;
+    width: 100%;
+    background: #f74660;
+    
+}
+.im{
+    width: 1195px;
+    height: 592px;
+    margin: 0 auto;
+    background-image: url(../img/login_bg.png);background-repeat: no-repeat;
+}
+.box{
+    width: 366px;
+    height: 469px;  
+    background-color: #fff;
+    float: right;
+    z-index: 999;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.tabs {
+	width:100%;
+	float:none;
+	list-style:none;
+	position:relative;
+	text-align:left;
+}
+.tabs li {
+	float:left;
+	display:block;
+}
+.tabs input[type="radio"] {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+.tabs label {
+	display:block;
+	padding:13px 21px;
+	border-radius:2px 2px 0 0;
+	font-size:14px;
+	font-family:方正黑体简体;
+	font-weight:normal;
+	text-transform:uppercase;
+	cursor:pointer;
+	position:relative;
+	top:4px;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+.tabs label:hover {
+	/**选项卡点击后的背景**/
+            /*background:#703688;
+	*/
+            color:#d32c26;
+	text-decoration:none;
+	font-size:14px;
+	font-family:方正黑体简体;
+}
+.tabs .tab-content1 {
+	z-index:2;
+	display:none;
+	overflow:hidden;
+	width:100%;
+	font-size:14px;
+	line-height:20px;
+	position:absolute;
+}
+.tabs .tab-content2 {
+	z-index:2;
+	display:none;
+	overflow:hidden;
+	width:100%;
+	font-size:14px;
+	line-height:25px;
+	position:absolute;
+	top:47px;
+	left:0;
+}
+.tabs [id^="tab"]:checked + label {
+	top:0;
+	padding-top:17px;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+	display:block;
+}
+
+.first_name {
+	float:left;
+	margin:20px 30px;
+}
+.right_name {
+	float:right;
+	margin:20px 50px;
+}
+.button{
+    background-color: #d32c26;
+    border: none;
+    color: white;
+    padding: 16px 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 39px;
+    margin-top: 65px;
+}
+
+
+.in0{
+    height: 30px;
+    width: 276px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer{
+    /* background-color: #333; */
+    width: 1366px;
+    height: 252px;
+    margin-top: 20px;
+}
+.foot{
+  width: 100%;
+  height: 55px;
+  /* background-color: #39cfb6; */
+}
+.foot1{
+    float: left;
+    font-size: 15px;
+    margin-left: 12%;
+    line-height: 26px;
+}
+.foot1 span{
+    margin-top: 2px;
+    display: inline-block;
+    margin-left: 13px;
+}
+.footer p a:hover{
+    color: #d32c26;
+}
+.footer p a{
+  text-decoration: none;
+  color: #666;
+}
+.footer .p0 {
+  text-align: center;
+  margin-top: 60px;
+}
+.ft{
+  width: 1366px;
+  height: 192px;
+  margin-top: 30px;
+}
+.v{
+  width: 125px;
+  margin-left: 4.5%;
+}
+.ft ul{
+  float: left;
+}
+.v span{
+  color: #666;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #666;
+}
+.p1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+}
+.p2{
+  text-align: center;
+  margin-top: 56px;
+  font-size: 13px;
+  color: #666;
+}
+.inp{
+    width:160px;
+    height:30px;
+    line-height:30px;
+}
+.tab-content1 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.tab-content2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.tab-content1 a{
+    float: right;
+    margin-top: 21px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #000;
+}
+.tab-content2 a{
+    float: right;
+    margin-top: 21px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #000;
+}
+.cb{
+    margin-top: 25px;
+    margin-left: 18px;
+}
+.p21{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 13px;
+    color: #666;
+}
+
+.ul5 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+}
